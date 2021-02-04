@@ -2,6 +2,18 @@
 
 This is a small utility to automate some release/tasks bookkeeping in JIRA.
 
+## Configuration
+
+The configuration is read from ```$HOME/.jirc.yaml``` file. Copy ```.jirc.yaml.example``` to your ```$HOME``` directory, reanme it to ```$HOME/.jirc.yaml``` and fill in correct values for jira URL,
+user and pass.
+
+To check the configration is correct ping your jira server. If configuration is correct, will see the message about logged in user.
+```
+$ jirc ping
+Using config file: /Users/jdoe/.jirc.yaml
+2021/02/04 17:59:10 Logged in as John Doe <jdoe@dom.org>
+```
+
 ## Available commands
 
 ```
@@ -19,7 +31,7 @@ Available Commands:
 Flags:
       --config string   config file (default is $HOME/.jirc.yaml)
   -h, --help            help for jirc
-  -j, --jira string     Jira base URL (default "http://jira.staffconfig.ru")
+  -j, --jira string     Jira base URL (default "http://jira.yourcomany.com")
   -p, --pass string     Jira password
   -u, --user string     Jira username
 
@@ -62,8 +74,8 @@ Flags:
 Global Flags:
 ...
 ```
-  
-### ping 
+
+### ping
 
 ```
 Ping jira server

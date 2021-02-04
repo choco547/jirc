@@ -40,10 +40,7 @@ Flags:
   -a, --show-apps-map   show applicaitons map and exit
 
 Global Flags:
-      --config string   config file (default is $HOME/.jirc.yaml)
-  -j, --jira string     Jira base URL (default "http://jira.yourcomany.com")
-  -p, --pass string     Jira password
-  -u, --user string     Jira username
+...
 ```
 
 ### deploy

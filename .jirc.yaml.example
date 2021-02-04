@@ -1,0 +1,5 @@
+jira: 
+  url: http://jira.yourcompany.com/
+  user:	jira_usernmae 
+  pass: jir_password
+

@@ -4,8 +4,14 @@ This is a small utility to automate some release/tasks bookkeeping in JIRA.
 
 ## Configuration
 
-The configuration is read from ```$HOME/.jirc.yaml``` file. Copy ```.jirc.yaml.example``` to your ```$HOME``` directory, reanme it to ```$HOME/.jirc.yaml``` and fill in correct values for jira URL,
-user and pass.
+The configuration is read from `$HOME/.jirc.yaml` file. Copy `.jirc.yaml.example` to your `$HOME` directory, rename it to `$HOME/.jirc.yaml` and fill in correct values for jira URL, user and pass.
+
+```YAML
+jira:
+  url: http://jira.yourcompany.com/
+  user:	jira_usernmae
+  pass: jir_password
+```
 
 To check the configration is correct ping your jira server. If configuration is correct, will see the message about logged in user.
 ```

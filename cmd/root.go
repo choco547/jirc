@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	defaultJiraURL = "http://jira.staffconfig.ru"
+	defaultJiraURL = "http://jira.yourcoman.com"
 )
 
 var (
